@@ -52,6 +52,7 @@ public class ProductController {
         }
     }
 
+    // Adding Comments for Patch Method
     @PatchMapping("/{id}")
     public ResponseEntity<ProductDto> patch(@PathVariable UUID id, @RequestBody ProductDto dto) {
         try {

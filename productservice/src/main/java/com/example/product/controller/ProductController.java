@@ -67,6 +67,7 @@ public class ProductController {
         }
     }
 
+    // Changing after stashing
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable UUID id) {
         svc.delete(id);

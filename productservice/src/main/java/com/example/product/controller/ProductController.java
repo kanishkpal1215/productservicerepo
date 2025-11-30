@@ -52,7 +52,7 @@ public class ProductController {
         }
     }
 
-    // Adding Comments for Patch Method
+    // Adding Comments for Patch Method and checking cherrypick
     @PatchMapping("/{id}")
     public ResponseEntity<ProductDto> patch(@PathVariable UUID id, @RequestBody ProductDto dto) {
         try {
